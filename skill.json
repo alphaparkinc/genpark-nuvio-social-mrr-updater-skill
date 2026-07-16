@@ -1,0 +1,28 @@
+{
+  "name": "genpark-nuvio-social-mrr-updater-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Nuvio dynamic X (Twitter) bio updater based on Stripe MRR.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "marketing",
+    "stripe",
+    "twitter",
+    "nuvio"
+  ],
+  "inputs": {
+    "current_mrr": {
+      "type": "number"
+    },
+    "base_bio_template": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "updated_bio_text": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
